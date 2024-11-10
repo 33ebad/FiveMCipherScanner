@@ -1,56 +1,56 @@
-# Enhanced Cipher Scanner
+🔒 **Enhanced Cipher Scanner**
 
-A robust FiveM resource scanner that helps protect your server from malicious code patterns, backdoors, and potentially harmful scripts.
+A robust FiveM resource scanner that helps protect your server from malicious code patterns, backdoors, and potentially harmful scripts. 🛡️
 
-## Features
+---
 
-- Enhanced error handling and reporting
-- Colored console output for better visibility
-- Recursive directory scanning
-- Intelligent path sanitization
-- Excluded directories (node_modules, stream)
-- Detailed scanning feedback
-- Support for multiple signature patterns
+**Features** ✨
 
-## Installation
+- ⚙️ Enhanced error handling and reporting
+- 🌈 Colored console output for better visibility
+- 🔄 Recursive directory scanning
+- 🛑 Intelligent path sanitization
+- 🚫 Excluded directories (node_modules, stream)
+- 📊 Detailed scanning feedback
+- 🔍 Support for multiple signature patterns
 
-1. Download the latest release
-2. Extract the files to your resources folder
-3. Rename the folder to `cipher-scanner`
-4. Add `ensure cipher-scanner` to your server.cfg
-5. Restart your server
+---
 
-## Usage
+**Installation** 📝
+
+1. 🔽 Download the latest release
+2. 📂 Extract the files to your resources folder
+3. ✨ Rename the folder to `cipher-scanner`
+4. ➕ Add `ensure cipher-scanner` to your `server.cfg`
+5. 🔄 Restart your server
+
+---
+
+**Usage** 🛠️
 
 The scanner automatically runs when the resource starts. It will:
-- Scan all running resources
-- Check for suspicious code patterns
-- Report findings in the server console with color-coded messages
-- Provide detailed information about scan results
 
-## Console Output Colors
+- 🔍 Scan all running resources
+- 🧐 Check for suspicious code patterns
+- 📢 Report findings in the server console with color-coded messages
+- 📑 Provide detailed information about scan results
 
-- 🟦 Blue: Information messages
-- 🟩 Green: Found patterns
-- 🟨 Yellow: Warnings
-- 🟥 Red: Errors
+---
 
-## Security Patterns Detected
+**Console Output Colors** 🎨
+
+- 🟦 **Blue**: Information messages
+- 🟩 **Green**: Found patterns
+- 🟨 **Yellow**: Warnings
+- 🟥 **Red**: Errors
+
+---
+
+**Security Patterns Detected** 🚨
 
 The scanner looks for several potentially malicious patterns including:
-- Cipher-specific code
-- Suspicious assertions
-- Unauthorized network events
-- Suspicious HTTP requests
 
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-[MIT License](LICENSE)
-
-## Credits
-
-This is an enhanced version of the original Cipher Scanner concept, with improved error handling, better reporting, and more robust scanning capabilities.
+- 🔐 Cipher-specific code
+- ⚠️ Suspicious assertions
+- 🌐 Unauthorized network events
+- 🚨 Suspicious HTTP requests
