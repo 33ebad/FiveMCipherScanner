@@ -20,8 +20,8 @@ A robust FiveM resource scanner that helps protect your server from malicious co
 
 1. 🔽 Download the latest release
 2. 📂 Extract the files to your resources folder
-3. ✨ Rename the folder to `cipher-scanner`
-4. ➕ Add `ensure cipher-scanner` to your `server.cfg`
+3. ✨ Rename the folder to `svr_FiveMCipherScanner`
+4. ➕ Add `ensure svr_FiveMCipherScanner` to your `server.cfg`
 5. 🔄 Restart your server
 
 ---
