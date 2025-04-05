@@ -1,9 +1,12 @@
 fx_version 'cerulean'
 game 'gta5'
 
+name 'FiveMCipherScanner'
 author '33ebad'
-description 'Enhanced FiveM Cipher Scanner - Protect your server from malicious code'
-version '1.0.0'
+description 'FiveM Security Scanner v2 - Malicious code patterns detection'
+version '2.0.0'
+
+shared_script 'config.lua'
 
 server_scripts {
     'server.js',
